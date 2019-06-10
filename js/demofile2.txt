@@ -1,0 +1,3 @@
+testlake1|url1|x1y1|fish1 fish2 fish 3|
+testlake2|url2|x2y2|fish2|
+testlake3|url3|x3y3|-1|
