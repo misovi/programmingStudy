@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alert test</title>
+    <script type="text/javascript">
+      function timeHandler()
+      {
+        console.log("inside handler");
+        alert("Five seconds has passed!");
+        setTimeout(timeHandler, 5000);
+      }
+      setTimeout(timeHandler, 5000);
+    </script>
+  </head>
+  <body>
+    <h1>header because obligatory</h1>
+    <p>GIANT BANANA</p>
+  </body>
+</html>
